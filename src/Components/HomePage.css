@@ -1,0 +1,156 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f9fafc;
+}
+
+.left-panel {
+  flex: 1;
+  max-width: 350px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 20px;
+  height: 300px;
+  width: 1000px;
+}
+
+.left-panel h2 {
+  color: #333;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+ 
+}
+
+.left-panel p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.right-panel {
+  flex: 2;
+  max-width: 700px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  height: 750px;
+}
+
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.day-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.day-button {
+  padding: 8px 15px;
+  margin: 0 5px;
+  font-size: 0.9em;
+  color: #007bff;
+  background-color: #ffffff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.day-button:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+.day-button.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.left-bottom {
+  position: relative; /* Position relative allows fine control over its placement */
+  margin-top: -480px; /* Space from the top */
+  margin-bottom: 400px;
+  margin-left: -760px; /* Adjust this value to move it further left */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  flex: 2; /* Flexible width for responsiveness */
+  width: 600px;
+}
+.bottom{
+  position: relative; /* Position relative allows fine control over its placement */
+  margin-top: 40px; /* Space from the top */
+  margin-left: -20px; /* Adjust this value to move it further left */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  flex: 2; /* Flexible width for responsiveness */
+  height: 1px;
+}
+.chart-container1 {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin: 20px auto;
+}
+h2 {
+  color: #333;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+   /*
+   .home-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-panel {
+  flex: 1;
+  max-width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.right-panel {
+  flex: 2;
+  max-width: 800px;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+  height: 300px;
+}
+
+.slick-slide {
+  padding: 10px;
+  text-align: center;
+}
+  */
